@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>당신의 맛집 책임지겠습니다!</title>
+    <link rel="icon" href="WKdrn1.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css" />
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/results.css">
+    <script defer src="./js/share.js"></script>
+    <script type="module" defer src="./js/results.js"></script>
+</head>
+
+<body>
+    
+    <h1 class="page_title">
+
+    </h1>
+    <img src="" alt="캐릭터" class="character">
+    <div class="result">
+        <div class="box"></div>
+        <div class="box"></div>
+        
+    <h1 class="page_subtitle">
+         당신의 맛집지도 위치는?
+    </h1>
+    
+    <div id="map" style="width:500px;height:400px;"></div>
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a9a6a4c78573cc0a3d9a0716929ab022"></script>
+	<script>
+		var container = document.getElementById('map');
+		var options = {
+			center: new kakao.maps.LatLng(33.450701, 126.570667),
+			level: 3
+		};
+
+		var map = new kakao.maps.Map(container, options);
+	</script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=APIKEY&libraries=LIBRARY"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=APIKEY&libraries=services"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=APIKEY&libraries=services,clusterer,drawing"></script>    
+    </div>
+
+
+
+    <div class="btn btn_green btn_small share-or-copy">
+        결과 공유하기
+    </div>
+    <a href="/index.html" class="btn btn_gray btn_small"> 다시 찾아보기
+
+    </a>
+</body>
+
+</html>
