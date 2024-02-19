@@ -7,4 +7,4 @@ mbti형식으로 사용자의 mbti를 측정하고 mbti의 결과에 따라 바�
 
 # 아키텍처 및 구현
 ![image](https://github.com/Wonjieu/mbti2/assets/102888661/e7c43587-d95b-4428-b012-3173c64e5999)
-
+![image](https://github.com/Wonjieu/mbti2/assets/102888661/a8f60f4c-d308-4f6d-8ab4-f1e61639cb78)
